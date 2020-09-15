@@ -1,5 +1,6 @@
+require('dotenv').config();
 const express = require("express");
-const exphbs = require("express-handlebars");
+// const exphbs = require("express-handlebars");
 const cors = require('cors');
 const bodyParser = require("body-parser");
 const app = express();
